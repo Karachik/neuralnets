@@ -1,3 +1,8 @@
 numpy
 scipy
-tensorflow-cpu
+tensorflow
+matplotlib
+tqdm
+boto3
+python-dotenv
+pandas
