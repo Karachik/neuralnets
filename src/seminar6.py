@@ -87,7 +87,7 @@ def get_data(augmentation=True):
     return train_ds, val_ds
 
 
-def make_advanced_model(input_shape, num_classes):
+def make_model(input_shape, num_classes):
     inputs = keras.Input(shape=input_shape)
 
     x = layers.Rescaling(1.0 / 255)(inputs)
